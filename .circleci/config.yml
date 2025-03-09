@@ -2,6 +2,7 @@ version: 2.1
 
 workflows:
   version: 2
+  # build job
   build:
     jobs:
       - build:
@@ -9,6 +10,7 @@ workflows:
             branches:
               only:
                 - main
+      # deploy job
       - deploy:
           filters:
             branches:
