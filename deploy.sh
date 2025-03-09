@@ -1,4 +1,4 @@
-# this is the deploy script for secure https
+# this is the deploy script
 sudo apt update && sudo apt install nodejs npm
 
 sudo npm install -g pm2
