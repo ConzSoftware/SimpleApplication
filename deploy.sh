@@ -9,8 +9,8 @@ cd SimpleApplication/
 
 npm install
 
-echo $PRIVATE_KEY > privatekey.pem
+#echo $PRIVATE_KEY > privatekey.pem
 
-echo $SERVER > server.crt
+#echo $SERVER > server.crt
 
 pm2 start ./bin/www --name example_app
